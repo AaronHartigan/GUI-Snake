@@ -3,7 +3,7 @@ The classic game of Snake in C++ using SDL2.0 for window creation and graphics.
 
 ### Screenshots
 
-
+![Snake](http://i.imgur.com/6p3Wfgr.png)
 
 ### Dependencies
 
