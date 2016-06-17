@@ -62,14 +62,14 @@ private:
 
 	//  A three-tuple of information of where the snake has turned.
 	//  Needed for having the tail follow the snake.
-	//  The direction stored is the direction that the path was.
+	//  The direction stored is the direction that the snake was facing.
 	//
 	//			<------
 	//			|
 	//			|
 	//		<---V
 	//
-	//  Like so. The arrows represent the direction.
+	//  Like so. (the arrows represent the direction stored)
 	//  The beginning Corner node will ALWAYS be the current location
 	//  of the snake's head.
 	struct Corners {

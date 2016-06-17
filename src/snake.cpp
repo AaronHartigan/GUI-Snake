@@ -15,15 +15,15 @@ Snake::Snake() {}
 Snake::Snake(Graphics &graphics) {
 	// Load snake image
 	this->_snakeTextureRight = SDL_CreateTextureFromSurface(graphics.getRenderer(),
-													   graphics.loadImage("snakeright.png"));
+													   graphics.loadImage("../resources/snakeright.png"));
 	this->_snakeTextureDown = SDL_CreateTextureFromSurface(graphics.getRenderer(),
-													   graphics.loadImage("snakedown.png"));
+													   graphics.loadImage("../resources/snakedown.png"));
 	this->_snakeTextureLeft = SDL_CreateTextureFromSurface(graphics.getRenderer(),
-													   graphics.loadImage("snakeleft.png"));
+													   graphics.loadImage("../resources/snakeleft.png"));
 	this->_snakeTextureUp = SDL_CreateTextureFromSurface(graphics.getRenderer(),
-													   graphics.loadImage("snakeup.png"));
+													   graphics.loadImage("../resources/snakeup.png"));
 	this->_tailTexture = SDL_CreateTextureFromSurface(graphics.getRenderer(),
-													   graphics.loadImage("tail.png"));
+													   graphics.loadImage("../resources/tail.png"));
 	this->_direction = "right";				 // starting direction
 	this->_x = globals::SCREEN_WIDTH / 10;   // x-starting position
 	this->_y = globals::SCREEN_HEIGHT / 10;  // y-starting position

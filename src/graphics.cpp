@@ -9,7 +9,7 @@ Graphics::Graphics() {
 								0,
 								&this->_window,
 								&this->_renderer);
-	SDL_SetWindowTitle(this->_window, "Aaron's C++ Final Project");
+	SDL_SetWindowTitle(this->_window, "Aaron's Snake Game");
 }
 
 Graphics::~Graphics() {

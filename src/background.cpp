@@ -9,7 +9,7 @@ Background::~Background() {}
 // This constructor will load the background image
 Background::Background(Graphics &graphics) {
 	this->_backgroundTexture = SDL_CreateTextureFromSurface(graphics.getRenderer(),
-															graphics.loadImage("background.png"));
+															graphics.loadImage("../resources/background.png"));
 
 }
 

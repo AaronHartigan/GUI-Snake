@@ -14,7 +14,7 @@ Fruit::~Fruit() {}
 Fruit::Fruit(Graphics &graphics) {
 	srand( SDL_GetTicks() );
 	this->_fruitTexture = SDL_CreateTextureFromSurface(graphics.getRenderer(),
-													   graphics.loadImage("fruit.png"));
+													   graphics.loadImage("../resources/fruit.png"));
 	this->generateNewFruit();
 }
 
