@@ -7,12 +7,13 @@ The classic game of Snake in C++ using SDL2.0 for window creation and graphics.
 
 ### Dependencies
 
-For linux:
+**For linux:**
+
 `SDL2: 		  apt-get install libsdl2-dev`
 
 `SDL2-image:  apt-get install libsdl2-image-dev`
 	
-For Windows:
+**For Windows:**
 
 [SDL2](https://www.libsdl.org/download-2.0.php)
 
